@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "Who is the intended audience for this book?",
+        "Answer": "The book is intended for beginners and students who want to understand C language elements, aspiring software professionals aiming to shape their careers, and future programmers of languages like C++, C#, or Java, as the author views C as a necessary foundation before moving to complex object-oriented languages."
+    },
+    {
+        "Question": "What exactly is taught in this book?",
+        "Answer": "The book covers the foundations of C (character set, constants, variables, keywords, instructions), control structures (decision, loop, and case control), core programming concepts (functions, pointers, recursion), data organization (arrays, strings, structures), advanced features (preprocessor, bitwise operations, I/O), and platform-specific programming for Windows (event-driven models, graphics, and hardware interaction) and Linux (processes and signals)."
+    },
+    {
+        "Question": "What is the expected outcome after finishing the book?",
+        "Answer": "Readers will gain a mastery of basic C elements and programming skills, the ability to create programs for Windows and Linux environments, an understanding of how to write high-performance code for embedded systems, and the skills to interact closely with hardware and write device drivers."
+    },
+    {
+        "Question": "How much time will it take to learn programming with this book?",
+        "Answer": "The book utilizes a two-phase approach (Chapters 1-15 for the learner phase and 16-21 for advanced application), and while there is no fixed timeline, the author notes that mastering C thoroughly before moving on may take more time, but is considered worth the trouble."
+    },
+    {
+        "Question": "What programming environment and tools are required?",
+        "Answer": "The author recommends Turbo C/C++ for the first fifteen chapters, Visual C++ or Borland C++ for Windows programming, and the gcc compiler with the KWrite editor for Linux programming."
+    },
+    {
+        "Question": "Why learn C before modern languages like C++ or Java?",
+        "Answer": "Learning C first provides a necessary foundation in language elements before tackling complex concepts like classes and inheritance; additionally, C remains essential for its unmatched performance, speed, and widespread use in operating systems, gaming, and embedded systems."
+    },
+    {
+        "Question": "Are there additional resources available with the book?",
+        "Answer": "Yes, all source code for the programs is available online, and a separate companion volume titled 'Let Us C Solutions' is available for those seeking exercise answers."
+    },
+    {
+        "Question": "Who is the author, Yashavant Kanetkar?",
+        "Answer": "Yashavant Kanetkar is an alumnus of VJTI Mumbai and IIT Kanpur, a recipient of the 'Best .NET Technical Contributor' award from Microsoft, a technology columnist, and a director at KICIT and DCube Software Technologies."
+    },
+    {
+        "Question": "How does the book compare learning C to learning a spoken language?",
+        "Answer": "The book draws an analogy to English, explaining that just as one learns by moving from alphabets to words, then sentences, and finally paragraphs, C follows a path from the character set to constants, variables, keywords, and instructions, ultimately resulting in a program."
+    },
+    {
+        "Question": "Why does the author focus on Windows and Linux instead of DOS in the 5th Edition?",
+        "Answer": "DOS-centric chapters were removed because they are less relevant to modern programming and were replaced with updated content focusing on Windows messaging and Linux signaling."
+    },
+    {
+        "Question": "What specific Linux tools and environments are used in the book?",
+        "Answer": "The book uses Red Hat Linux 9.0, the BASH console shell, the KWrite text editor within the KDE environment, and the GNU C compiler (gcc)."
+    },
+    {
+        "Question": "What advanced system-level concepts are explored for Linux?",
+        "Answer": "The book covers process management (PIDs, parent/child processes via fork(), and exec), system states (Zombie and Orphan processes), and signals (how the OS communicates via signals like SIGINT and SIGKILL)."
+    },
+    {
+        "Question": "What advanced Windows features are covered?",
+        "Answer": "The book teaches graphics and sound integration, as well as the 'Windows Hooks' mechanism for intercepting and altering system-wide messages."
+    },
+    {
+        "Question": "What additional technical reference materials are included?",
+        "Answer": "The book includes appendices featuring operator precedence, a guide to debugging ('Chasing the Bugs'), explanations of Hexadecimal numbering, an ASCII chart, and detailed boot parameters for FAT12, FAT16, and FAT32 file systems."
+    },
+    {
+        "Question": "How can I access the source code for the programs in the book?",
+        "Answer": "Source code is available at www.kicit.com/books/letusc/sourcecode, and legacy content from the 4th edition is available at www.kicit.com/books/letusc/fourthedition."
+    }
+]
