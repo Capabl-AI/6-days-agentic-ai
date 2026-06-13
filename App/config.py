@@ -20,6 +20,14 @@ class Settings(BaseSettings):
     LANGSMITH_API_KEY: str = Field(validation_alias="LANGSMITH_API_KEY")
     LANGSMITH_PROJECT: str = Field(validation_alias="LANGSMITH_PROJECT")
 
+    # REDIS SETUP
+    REDIS_HOST: str = Field(validation_alias="REDIS_HOST")
+    REDIS_PORT: int = Field(validation_alias="REDIS_PORT")
+    REDIS_DB: int = Field(validation_alias="REDIS_DB")
+
+    # SQLite Settings
+    SQLITE_DB_PATH: str = Field(validation_alias="SQLITE_DB_PATH")
+
     model_config = SettingsConfigDict(
         env_file='.env',
         env_file_encoding='utf-8',
